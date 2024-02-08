@@ -1,0 +1,55 @@
+.Valentine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.BearBegging {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.BearKissing {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.ValentineQuestion {
+  color: red;
+  padding: 15px 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.yesButton {
+  background-color: #66FF00;
+  padding: 9px 17px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.noButton {
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+
+.text {
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 15px 30px;
+}
